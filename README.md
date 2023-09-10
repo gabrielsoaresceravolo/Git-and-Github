@@ -8,7 +8,7 @@ The purpose of this repository is to learn basic functionalities and tips to enh
 
 <hr>
 
-# Global configuration commands for Git
+<h3> Global configuration commands for Git </h3>
 
 ```
 git config --global user.name "Github Name"
@@ -17,7 +17,7 @@ git config --global user.email "Github Email"
 
 <hr>
 
-# commands to push the files to the GitHub repository
+<h3> commands to push the files to the GitHub repository </h3>
 
 ```
 git clone "Repository"
@@ -27,7 +27,7 @@ git push
 ```
 
 
-# Basic Commands Used
+<h3> Basic Commands Used </h3>
 
 ```
 git status
@@ -36,7 +36,7 @@ git config --list
 
 <hr>
 
-# Mistakes that happened to me and how to fix them
+<h3> Mistakes that happened to me and how to fix them </h3>
 
 >Error: Repository Unsafe (To set git settings that the directory is safe)
 
