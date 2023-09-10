@@ -1,6 +1,10 @@
-<h1>Git and GitHub Essentials: Boosting Your Daily Workflow</h1>
+<p align="center">
+  <img src="" alt="Capa do Repositório">
+</p>
 
-> Repository Status: In Development
+<h1 align="center"> Git and GitHub Essentials: Boosting Your Daily Workflow </h1>
+
+![Badge - Status do projeto](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=yellow&style=for-the-badge)
 
 Description about the repository: 
 
@@ -8,7 +12,7 @@ The purpose of this repository is to learn basic functionalities and tips to enh
 
 <hr>
 
-<h3> Global configuration commands for Git </h3>
+<h3> 🛠️ Global configuration commands for Git </h3>
 
 ```
 git config --global user.name "Github Name"
@@ -25,7 +29,7 @@ git add (File.exe or .)
 git commit -m "Your Commit"
 git push
 ```
-
+<hr>
 
 <h3> Basic Commands Used </h3>
 
@@ -38,7 +42,7 @@ git config --list
 
 <h3> Mistakes that happened to me and how to fix them </h3>
 
->Error: Repository Unsafe (To set git settings that the directory is safe)
+Error: Repository Unsafe (To set git settings that the directory is safe)
 
 ```
 git config --global --add safe.directory 'Directory Path'
