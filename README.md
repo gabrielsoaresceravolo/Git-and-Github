@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="" alt="Capa do Repositório">
+  <img src="https://github.com/GabrielSoaresCeravolo/Git-and-Github/blob/main/Git-and-Github.png" alt="Capa do Repositório">
 </p>
 
 <h1 align="center"> Git and GitHub Essentials: Boosting Your Daily Workflow </h1>
