@@ -50,9 +50,30 @@ After you finish updating your codes, you can use the following commands to:
 <h3> Basic Commands Used </h3>
 
 ```
-git status
-git config --list
+git log
+  or
+git log --oneline
 ```
+
+These commands display a concise summary of all commits made to the repository
+
+```
+git pull (Repository Path)
+```
+The "git pull" command is used to update the local repository with the changes that were made in the remote repository
+
+
+```
+git status
+```
+
+The "git status" command is useful for checking the current state of your project
+
+```
+git push origin main
+```
+
+The "push origin main" command is used to push changes from the local branch called "main" to the remote repository called "origin"
 
 <hr>
 
