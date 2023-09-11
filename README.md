@@ -1,8 +1,9 @@
 <p align="center">
   <img src="https://github.com/GabrielSoaresCeravolo/Git-and-Github/blob/main/Git-and-Github.png" alt="Capa do Repositório">
+  <h1 align="center">Git and GitHub Essentials: Boosting Your Daily Workflow</h1>
 </p>
 
-<h1 align="center"> Git and GitHub Essentials: Boosting Your Daily Workflow </h1>
+
 
 ![Badge - Status do projeto](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=yellow&style=for-the-badge)
 
@@ -12,7 +13,7 @@ The purpose of this repository is to learn basic functionalities and tips to enh
 
 <hr>
 
-<h3> 🛠️ Global configuration commands for Git </h3>
+### 🛠️ Global configuration commands for Git </h3>
 
 ```
 git config --global user.name "Github Name"
@@ -23,64 +24,55 @@ The first command sets your global Git username to “GitHub Name”. When you c
 
 <hr>
 
-<h3> commands to push the files to the GitHub repository </h3>
+### 📑 Command to create and/or clone a repository
 
-```
-git clone (Repository Path)
-```
-The Git version control system will attempt to clone a Git repository located at the specified "Repository Path" to their local machine
-
-```
-git add (File.exe or .)
-git commit -m "Your Commit"
-git push
-```
-After you finish updating your codes, you can use the following commands to:
+| Command | Description |
+| ------- | ----------- |
+| *git init* | Initialize a local Git repository |
+| *git clone [repository-link]* | Create a local copy of a remote repository |
 
 <br>
 
-• Add new files with git add
+### 🙂 Basic Commands Used
 
-• Create a description of what was changed in your code with git commit
+| Command | Description |
+| ------- | ----------- |
+| *git status* | Check status |
+| *git add [file-name.txt]* | Add a file to the staging area |
+| *git add -a* | Add all new and changed files to the staging area |
+| *git commit -m "[commit message]"* | Commit changes |
+| *git rm -r [file-name.txt]* | Remove a file (or folder) |
 
-• Commit to remote repository using git push
+<br>
 
-<hr>
+### 🌳 Branch and Merge commands
 
-<h3> Basic Commands Used </h3>
-
-```
-git log
-  or
-git log --oneline
-```
-
-These commands display a concise summary of all commits made to the repository
-
-```
-git pull (Repository Path)
-```
-The "git pull" command is used to update the local repository with the changes that were made in the remote repository
-
-
-```
-git status
-```
-
-The "git status" command is useful for checking the current state of your project
-
-```
-git push origin main
-```
-
-The "push origin main" command is used to push changes from the local branch called "main" to the remote repository called "origin"
+| Command | Description |
+| ------- | ----------- |
+| *git branch* | List branches (the asterisk denotes the current branch) |
+| *git branch -a* | List all branches (local and remote) |
+| *git branch [branch name]* | Create a new branch |
+| *git branch -d [branch name]* | Delete a branch |
+| *git push origin --delete [branch name]* | Delete a remote branch |
+| *git checkout -b [branch name]* | Create a new branch and switch to it |
+| *git checkout -b [branch name] origin/[branch name]* | Clone a remote branch and switch to it |
+| *git branch -m [old branch name] [new branch name]* | Rename a local branch |
+| *git checkout [branch name]* | Switch to a branch |
+| *git checkout -* | Switch to the branch last checked out |
+| *git checkout -- [file-name.txt]* | Discard changes to a file |
+| *git merge [branch name]* | Merge a branch into the active branch |
+| *git merge [source branch] [target branch]* | Merge a branch into a target branch |
+| *git stash* | Stash changes in a dirty working directory |
+| *git stash clear* | Remove all stashed entries |
 
 <hr>
 
-<h3> Mistakes that happened to me and how to fix them </h3>
+### ⚠️ Some errors that can happen and how to fix them
 
-Error: Repository Unsafe (To set git settings that the directory is safe)
+Error: Repository Unsafe
 
 ```
 git config --global --add safe.directory 'Directory Path'
 ```
+
+<br>
