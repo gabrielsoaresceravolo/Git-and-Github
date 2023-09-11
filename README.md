@@ -1,13 +1,12 @@
 <p align="center">
   <img src="https://github.com/GabrielSoaresCeravolo/Git-and-Github/blob/main/Git-and-Github.png" alt="Capa do Repositório">
-  <h1 align="center">Git and GitHub Essentials: Boosting Your Daily Workflow</h1>
 </p>
 
-
+<h1 align="center">Git and GitHub Essentials: Boosting Your Daily Workflow</h1>
 
 ![Badge - Status do projeto](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=yellow&style=for-the-badge)
 
-Description about the repository: 
+### Description about the repository: 
 
 The purpose of this repository is to learn basic functionalities and tips to enhance my day-to-day experience with Git and GitHub. The repository is open for anyone interested in the same topic to access as well
 
