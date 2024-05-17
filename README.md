@@ -12,7 +12,7 @@ The purpose of this repository is to learn basic functionalities and tips to enh
 
 <hr>
 
-### 🛠️ Global configuration commands for Git </h3>
+### 🛠️ Global configuration commands for Git
 
 ```
 git config --global user.name "Github Name"
@@ -23,55 +23,55 @@ The first command sets your global Git username to “GitHub Name”. When you c
 
 <hr>
 
+<br>
+
 ### 📑 Command to create and/or clone a repository
 
-| Command | Description |
-| ------- | ----------- |
-| *git init* | Initialize a local Git repository |
-| *git clone [repository-link]* | Create a local copy of a remote repository |
+| Command                   | Description                               |
+|---------------------------|-------------------------------------------|
+| `git init`                | Initialize a local Git repository         |
+| `git clone [repository-link]` | Create a local copy of a remote repository |
 
 <br>
 
 ### 🙂 Basic Commands Used
 
-| Command | Description |
-| ------- | ----------- |
-| *git status* | Check status |
-| *git add [file-name.txt]* | Add a file to the staging area |
-| *git add -a* | Add all new and changed files to the staging area |
-| *git commit -m "[commit message]"* | Commit changes |
-| *git rm -r [file-name.txt]* | Remove a file (or folder) |
+| Command                             | Description                                      |
+|-------------------------------------|--------------------------------------------------|
+| `git status`                        | Check status                                     |
+| `git add [file-name.txt]`           | Add a file to the staging area                   |
+| `git add .`                         | Add all new and changed files to the staging area|
+| `git rm -r [file-name.txt]`         | Remove a file (or folder)                        |
+| `git commit -m "[commit message]"`  | Commit changes                                   |
+| `git push`                          | Push to a remote repository                      |
 
 <br>
 
 ### 🌳 Branch and Merge commands
 
-| Command | Description |
-| ------- | ----------- |
-| *git branch* | List branches (the asterisk denotes the current branch) |
-| *git branch -a* | List all branches (local and remote) |
-| *git branch [branch name]* | Create a new branch |
-| *git branch -d [branch name]* | Delete a branch |
-| *git branch -m [old branch name] [new branch name]* | Rename a local branch |
-| *git checkout [branch name]* | Switch to a specific branch |
-| *git checkout -* | Switch to the last checked out branch |
-| *git checkout -- [file-name.txt]* | Discard changes to a file |
-| *git checkout -b [branch name]* | Create a new branch and switch to it |
-| *git checkout -b [branch name] origin/[branch name]* | Clone a remote branch and switch to it |
-| *git push origin [branch name]* | Push to a remote branch |
-| *git merge [branch name]* | Merge a branch into the active branch |
-| *git merge [source branch] [target branch]* | Merge a branch into a target branch |
-| *git stash* | Stash changes in a dirty working directory |
-| *git stash clear* | Remove all stashed entries |
+| Command                                                | Description                                        |
+|--------------------------------------------------------|----------------------------------------------------|
+| `git branch`                                           | List branches                                      |
+| `git branch [branch name]`                             | Create a new branch                                |
+| `git checkout -b [branch name]`                        | Create a new branch and switch to it               |
+| `git branch -d [branch name]`                          | Delete a branch                                    |
+| `git branch -m [old branch name] [new branch name]`    | Rename a local branch                              |
+| `git checkout [branch name]`                           | Switch to a specific branch                        |
+| `git checkout -b [branch name] origin/[branch name]`   | Clone a remote branch and switch to it             |
+| `git push origin [branch name]`                        | Push to a remote branch                            |
+| `git merge [branch name]`                              | Merge a branch into the active branch              |
+| `git merge [source branch] [target branch]`            | Merge a branch into a target branch                |
+| `git stash`                                            | Stash changes in a dirty working directory         |
+| `git stash clear`                                      | Remove all stashed entries                         |
 
 <hr>
 
 ### ⚠️ Some errors that can happen and how to fix them
 
-Error: Repository Unsafe
-
-```
-git config --global --add safe.directory 'Directory Path'
-```
-
 <br>
+
+Error: Repository Unsafe:
+
+`git config --global --add safe.directory 'Directory Path' `
+
+
