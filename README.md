@@ -64,6 +64,34 @@ The first command sets your global Git username to “GitHub Name”. When you c
 | `git stash`                                            | Stash changes in a dirty working directory         |
 | `git stash clear`                                      | Remove all stashed entries                         |
 
+<br>
+
+### 📂 Types of Repositories on GitHub
+
+1. **User/Organization Pages**:
+   - Repository name: `[username].github.io`
+   - Purpose: Hosts a website for your GitHub profile or organization.
+
+2. **Project Repository**:
+   - Repository name: Any name
+   - Purpose: Used for specific projects, containing all the project's files, including the revision history.
+
+3. **User/Organization Named Repository**:
+   - Repository name: `[username]` or `[organization]`
+   - Purpose: Often used to store configuration files, scripts, or personal projects, or as a showcase for your profile (a famosa fachada para seu perfil).
+
+4. **Template Repository**:
+   - Repository name: Any name
+   - Purpose: Serves as a template for creating new repositories with the same structure and files. Useful for standardizing projects or boilerplate code.
+
+5. **Forked Repository**:
+   - Repository name: Any name (usually the same as the original repository)
+   - Purpose: A copy of another user's repository. Allows you to freely experiment with changes without affecting the original project.
+
+6. **Gist**:
+   - Repository name: Automatically generated
+   - Purpose: A simple way to share snippets or small pieces of code. Each Gist is a Git repository, allowing version control and forkability.
+
 <hr>
 
 ### ⚠️ Some errors that can happen and how to fix them
