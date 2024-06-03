@@ -1,10 +1,11 @@
 <p align="center">
-  <img src="https://github.com/GabrielSoaresCeravolo/Git-and-Github/blob/main/Git-and-Github.png" alt="Capa do Repositório">
+  <img src="https://github.com/gabrielsoaresceravolo/Git-and-Github/assets/132103393/7081ef42-eaad-4648-99fb-c6739b8a2f77" alt="Capa do Repositório">
 </p>
+
 
 <h1 align="center">Git and GitHub Essentials: Boosting Your Daily Workflow</h1>
 
-![Badge - Status do projeto](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=yellow&style=for-the-badge)
+![Badge - Status do projeto](http://img.shields.io/static/v1?label=STATUS&message=%20COMPLETE&color=green&style=for-the-badge)
 
 ### Description about the repository: 
 
